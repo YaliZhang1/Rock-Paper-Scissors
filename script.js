@@ -5,7 +5,7 @@ var currentRound = 1;
 var rounds = 5;
 const choices = ["rock", "paper", "scissors"];
 const imgMap = {
-  rock: "img/rock.png", // Replace with actual URLs or paths to your GIFs
+  rock: "img/rock.png",
   paper: "img/paper.png",
   scissors: "img/scissors.png",
 };
@@ -157,4 +157,3 @@ function prepareNextRound() {
   document.querySelector("#humanChoiceTitle").style.display = "flex";
   document.querySelector("#buttonContainer").style.display = "flex";
 }
-
