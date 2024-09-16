@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/game.css" />
+    <link rel="stylesheet" href="./styles/game.css" />
+    <link rel="stylesheet" href="./styles/game.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div id="gameContainer">
+      <!-- common content -->
+      <h1>Rock Paper Scissors</h1>
+      <div id="roundInfo">Round 1</div>
+      <div id="scoreInfo">Score: You 0 - 0 Computer</div>
+      <!-- page1 -->
+      <h4 id="humanChoiceTitle">Choose your option</h4>
+      <div id="buttonContainer">
+        <button class="choiceButton" data-choice="rock">
+          <i class="fas fa-hand-rock fa-icon"></i>
+        </button>
+        <button class="choiceButton" data-choice="paper">
+          <i class="fas fa-hand-paper fa-icon"></i>
+        </button>
+        <button class="choiceButton" data-choice="scissors">
+          <i class="fas fa-hand-scissors fa-icon"></i>
+        </button>
+      </div>
+      <!-- page2 -->
+      <div class="containerInGame">
+        <div class="choiceContainer">
+          <div class="person">
+            <h2 id="personChoiceTitle">You</h2>
+            <img src="" alt="Your choice" id="personChoiceImg" />
+          </div>
+          <div class="computer">
+            <h2 id="computerChoiceTitle">Computer</h2>
+            <img src="" alt="Computer choice" id="computerChoiceImg" />
+          </div>
+        </div>
+        <div id="resultForOneRoundText"></div>
+        <div id="nextRoundButtonContainer">
+          <button id="nextRoundButton">Next Round</button>
+        </div>
+      </div>
+      <!-- pag3.5.7.9 is the same as page1,  pag4.6.8 is the same as page2,-->
+      <!-- page10 is the last page, add finalResult to page8 -->
+      <div id="finalContainer">
+        <div id="finalResultText"></div>
+        <div id="newGameButtonContainer">
+          <button id="newGameButton">Play a New Game</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

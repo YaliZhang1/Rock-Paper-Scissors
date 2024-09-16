@@ -1,0 +1,87 @@
+* {
+  max-width: 800px;
+  align-items: center;
+  margin: auto;
+}
+
+#gameContainer {
+  margin: auto;
+  align-items: center;
+  padding-bottom: 50px;
+}
+h1 {
+  margin: 50px 90px 90px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 60px;
+}
+
+#roundInfo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 90px 20px;
+  font-size: 20px;
+}
+
+#scoreInfo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 90px 70px;
+  font-size: 30px;
+}
+
+#instruction {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 90px 50px;
+  font-size: 35px;
+}
+#buttonContainer {
+  align-items: center;
+  display: flex;
+  margin: 10px 90px 20px;
+}
+.choiceButton {
+  width: 100px;
+  height: 100px;
+}
+i {
+  font-size: 50px;
+}
+.person,
+.computer {
+  border: black solid 2px;
+}
+#nextRoundButton {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.person,
+.computer,
+#nextRoundButtonContainer,
+#newGameButtonContainer {
+  visibility: hidden;
+}
+.choiceContainer {
+  display: flex;
+}
+.containerInGame {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#newGameButton {
+  height: 30px;
+  padding: 5px;
+  margin-top: 20px 20px 50px;
+}
+#finalContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
